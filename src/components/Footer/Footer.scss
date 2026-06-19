@@ -1,0 +1,40 @@
+.subcontainer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: -50px;
+        left: 0;
+        background-color: black;
+        border-radius: 50%;
+        z-index: -1;
+    }
+    .top{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        place-content: center;
+        margin-bottom: 15px;
+
+        .social-media{
+            width: 30px;
+            height: 30px;
+            padding: 1px 0 0 4px;
+            margin-top: -15px;
+            background-color: greenyellow;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+    }
+    .bottom{
+
+    }
+
+}

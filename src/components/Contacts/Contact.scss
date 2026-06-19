@@ -1,0 +1,122 @@
+.sub-container-contact{
+    .titre{
+        color: greenyellow;
+        font-weight: 700;
+    }
+    .subtitle{
+        font-size: 35px;
+        color: black;
+        margin: 10px 0 45px 0;
+        position: relative;
+
+        &::before{
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 350px;
+            bottom: -5px;
+            left: 0;
+            background: linear-gradient(to right, transparent, greenyellow, transparent);
+        }
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+
+        .left{
+            
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                border: 2px solid gold;
+                padding: 50px;
+                width: 100%;
+                border-radius: 8px;
+            }
+
+            .name, .email, .message {
+
+                display: flex;
+                flex-flow: column;
+                color: black;
+                
+
+                input{
+                    border: 1px solid gold;
+                    padding: 10px;
+                    outline: none;
+                    border-radius: 4px;
+
+                }
+
+                label{
+                    margin-bottom: 5px;
+                 }
+                textarea{
+                    border: 1px solid greenyellow;
+                    padding: 10px;
+                    outline: none;
+                    border-radius:4px;
+                }
+            }
+            
+            button{ 
+                padding: 8px 10px;
+                font-size: 18px;
+                outline: none;
+                border: 2px solid goldenrod;
+                background-color: goldenrod;
+                width: 50%;
+                cursor: pointer;
+                margin-top: 10px;
+                border-radius: 20px;
+            }
+
+
+        }
+
+        .right{
+
+            .image-container{
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                position: relative;
+
+                .first-image{ 
+                    width: 250px;
+                    height: 400px;
+                    border-radius: 100px;
+                    overflow: hidden;
+
+                    img{ 
+                        width: 300px;
+                    }
+                }
+
+                .second-image{
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 50%;
+                    margin-top: 1px; }
+                    
+                .third-image{
+                    position: absolute;
+                    bottom: 1px;
+                    right: 10px;
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 50%;
+                 }
+             }
+        }
+    }
+
+
+
+
+
+}
