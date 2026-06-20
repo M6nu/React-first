@@ -4,7 +4,6 @@
         background-color: black;
         display: flex;
         justify-content: center;
-
         position: relative;
         padding-bottom: 20px;
 
@@ -35,6 +34,16 @@
             width: 80%;
         }
     }
+
+        .booking-container {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            padding-bottom: 20px;
+
+            
+        }
 
     .value-container{
         display: flex;

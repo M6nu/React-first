@@ -6,6 +6,7 @@ import Product from './components/Product/Product'
 import Value from './components/Value/Value'
 import Contact from './components/Contacts/Contact'
 import Footer from './components/Footer/Footer'
+import Booking from './components/Booking/Booking'
 
 function App() {
   return (
@@ -20,6 +21,12 @@ function App() {
         <div className="product"></div>
         <Product />
       </section>
+      <section className="booking-container">
+          <div className="booking">
+            <Booking/>
+          </div>
+        </section>
+
       <section className="value-container">
         <div className="values">
           <Value />

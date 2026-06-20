@@ -10,11 +10,11 @@ const Navbar = () => {
             <h2 className='logo'>Rachel Beauty</h2>
             <div className='navigation'>
                 <ul className="links-container">
-                    <li className="link">Fashion</li>
-                    <li className="link">About Us</li>
-                    <li className="link">Contact</li>
-                    <li className="link">Book</li>
-                </ul>
+                    <li><a href="#fashion">Fashion</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    </ul>
                 <FiMenu className='menu-icon'/>
             </div>
         </div>

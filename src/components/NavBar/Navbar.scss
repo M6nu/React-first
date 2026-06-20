@@ -1,6 +1,6 @@
 .navbar{
 
-    max-width: 1366px;
+    max-width: 1360px;
     
     .computer{
         display: flex;
@@ -18,7 +18,7 @@
                 height: 30px;
                 width: 30px;
                 position: absolute;
-                background-color: #4e4caf;
+                background-color: goldenrod;
                 z-index: -1;
                 border-radius: 50%;
                 left: -2px;
@@ -37,7 +37,7 @@
                 cursor: pointer;
 
                 &:last-child{
-                    background-color: #4e4caf;
+                    background-color: greenyellow;
                     padding: 5px 10px ;
                     width: 7rem;
                     font-weight: 600;
